@@ -30,6 +30,7 @@ nav {
     */
 nav img {
     height: 50px;
+    
     /* flex: 1; */
    
 }
@@ -77,11 +78,61 @@ background-color: beige;
     background-color:whitesmoke;
     margin: auto;
     /* border: #13b4d8; */
-    max-width: 800px;
+    max-width: 1000px;
     padding-left: 25px;
     padding-right: 25px;
     max-height: 500px;   
 }
+
+
+.container .row {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content:space-around; 
+    }
+    .container .row .col-1{
+        flex-basis: 50%;
+        min-width: 300px;  
+      }
+
+      .container .row .col-2 img{
+        max-width: 100%;
+        padding:5px 0;
+        max-height: 500px;
+    }
+    
+    .container .row .col-1 h1{
+        font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    .container .row .col-1 p{
+    font-size:larger;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    
+    .container .row .col-1 #mybutton {
+        border-radius: 5vw;
+        background-color: rgb(5, 238, 255);
+        padding: 6px;
+    }
+    
+    .container .row .col-1 #mybutton:hover{
+        background-color: beige;
+    }
+    
+    
+    
+    
+
+
+
+
+
 
 
 .container-fluid-1 {
@@ -115,25 +166,6 @@ background-color: beige;
 }
 
 
-.container .row {
-    display: flex;
-    align-items: center;
-    /* flex-wrap: wrap; */
-    justify-content:space-around; 
-    }
-    .container .row .col-1{
-        flex-basis: 50%;
-        min-width: 300px;  
-      }
-
-      .container .row .col-2 img{
-        max-width: 100%;
-        padding:5px 0;
-        max-height: 500px;
-    }
-    
-
-
 
 /* .container .row {
     display: flex;    
@@ -152,31 +184,6 @@ background-color: beige;
     justify-content: flex-end;
     display:
 } */
-.container .row .col-1 h1{
-    font-size: xx-large;
-font-family: 'Times New Roman', Times, serif;
-}
-
-
-.container .row .col-1 p{
-font-size:larger;
-font-weight: 100;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-.container .row .col-1 #mybutton {
-    border-radius: 5vw;
-    background-color: rgb(5, 238, 255);
-    padding: 6px;
-}
-
-.container .row .col-1 #mybutton:hover{
-    background-color: beige;
-}
-
-
-
 .container-fluid-1 .fluid-1 {
     margin: 0px;
     text-align: center;
